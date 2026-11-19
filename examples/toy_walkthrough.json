@@ -1,0 +1,301 @@
+{
+  "kind": "fabricated_fixture_not_real_model_result",
+  "coverage": [
+    0,
+    5
+  ],
+  "example_only_parameters": {
+    "H": 2,
+    "L": 2,
+    "candidate_stride": 1
+  },
+  "raw_events": [
+    {
+      "step": 0,
+      "customer": "T",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "10.00",
+      "fraud": 0
+    },
+    {
+      "step": 1,
+      "customer": "T",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "50.00",
+      "fraud": 1
+    },
+    {
+      "step": 2,
+      "customer": "T",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "10.00",
+      "fraud": 0
+    },
+    {
+      "step": 2,
+      "customer": "T",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "20.00",
+      "fraud": 0
+    },
+    {
+      "step": 3,
+      "customer": "T",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "20.00",
+      "fraud": 0
+    },
+    {
+      "step": 4,
+      "customer": "T",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "20.00",
+      "fraud": 0
+    },
+    {
+      "step": 5,
+      "customer": "T",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "30.00",
+      "fraud": 0
+    },
+    {
+      "step": 0,
+      "customer": "D1",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "30.00",
+      "fraud": 0
+    },
+    {
+      "step": 1,
+      "customer": "D1",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "20.00",
+      "fraud": 0
+    },
+    {
+      "step": 2,
+      "customer": "D1",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "10.00",
+      "fraud": 0
+    },
+    {
+      "step": 3,
+      "customer": "D1",
+      "age": "2",
+      "gender": "F",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "20.00",
+      "fraud": 0
+    },
+    {
+      "step": 0,
+      "customer": "D2",
+      "age": "3",
+      "gender": "M",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "30.00",
+      "fraud": 0
+    },
+    {
+      "step": 1,
+      "customer": "D2",
+      "age": "3",
+      "gender": "M",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "20.00",
+      "fraud": 0
+    },
+    {
+      "step": 2,
+      "customer": "D2",
+      "age": "3",
+      "gender": "M",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "30.00",
+      "fraud": 0
+    },
+    {
+      "step": 3,
+      "customer": "D2",
+      "age": "3",
+      "gender": "M",
+      "zipcodeOri": "28007",
+      "merchant": "M_TOY",
+      "zipMerchant": "28007",
+      "category": "es_food",
+      "amount": "40.00",
+      "fraud": 0
+    }
+  ],
+  "expected_data": {
+    "raw_rows": 15,
+    "normal_rows": 14,
+    "normal_amount_cents": 31000,
+    "customer_T_daily_cents": [
+      1000,
+      0,
+      3000,
+      2000,
+      2000,
+      3000
+    ]
+  },
+  "query": {
+    "customer": "T",
+    "origin_t": 3,
+    "visible_steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "Q": [
+      30,
+      20
+    ],
+    "mu": 15,
+    "sigma": 11.180339887498949,
+    "cv": 0.7453559924999299,
+    "positive_day_ratio": 0.75,
+    "group_status": "AGE_ONLY",
+    "assumed_cluster_age_centers": [
+      2,
+      3,
+      6
+    ],
+    "expected_group": "财富起步客户"
+  },
+  "candidates": [
+    {
+      "donor": "D1",
+      "key_steps": [
+        0,
+        1
+      ],
+      "value_steps": [
+        2,
+        3
+      ],
+      "K": [
+        30,
+        20
+      ],
+      "V": [
+        10,
+        20
+      ],
+      "distance": 0,
+      "weight": 0.5
+    },
+    {
+      "donor": "D2",
+      "key_steps": [
+        0,
+        1
+      ],
+      "value_steps": [
+        2,
+        3
+      ],
+      "K": [
+        30,
+        20
+      ],
+      "V": [
+        30,
+        40
+      ],
+      "distance": 0,
+      "weight": 0.5
+    }
+  ],
+  "expected_reference": [
+    20,
+    30
+  ],
+  "external_test_stub_prediction": [
+    18,
+    28
+  ],
+  "truth": [
+    20,
+    30
+  ],
+  "expected_metrics": {
+    "MSE": 4,
+    "RMSE": 2,
+    "MAE": 2,
+    "predicted_total": 46,
+    "actual_total": 50,
+    "TotalAE": 4
+  },
+  "expected_allocation": {
+    "r_conservative": 0.8,
+    "r_aggressive": 0.2
+  },
+  "warning": "预测是测试桩给定，未执行网络。中心也是演算假设，不是训练结果。真实调用无权重必须MODEL_NOT_TRAINED。"
+}

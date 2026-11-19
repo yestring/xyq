@@ -1,0 +1,100 @@
+{
+  "system_name": "银行客户现金流预测与智能资产配置辅助决策系统 V1.0",
+  "spec_version": "1.0.0",
+  "generated_utc": "2026-11-15T14:05:43.248231+00:00",
+  "scope": "Algorithm specification, original data, reference counts and staged prompts. No business implementation or trained model.",
+  "normative_document": "docs/ALGORITHM_SPEC.md",
+  "inventory_excludes": "manifest.json itself",
+  "files": [
+    {
+      "path": "config/defaults.json",
+      "bytes": 3202,
+      "sha256": "2dd56c20155a919c7810aeb735f0a0fe4d4f85c5ba7022dec18cd673cb23fae9"
+    },
+    {
+      "path": "data/raw/bs140513_032310.csv",
+      "bytes": 48986035,
+      "sha256": "e37006f76d993bfaec3a02d717b4f0bdc1ebfa5d36449e91fb7c07e225278377"
+    },
+    {
+      "path": "data/reference/normal_data_audit.json",
+      "bytes": 4083,
+      "sha256": "86eb90d71539a39f581c6b50ce50c73687255f0c0de40868a11c1f9d8feb6a56"
+    },
+    {
+      "path": "data/reference/source_metadata.json",
+      "bytes": 9002,
+      "sha256": "84effab496886310040a6edd4bf43554ac51f6d70d9d6fa0869fedb00e7359cd"
+    },
+    {
+      "path": "docs/ACCEPTANCE_CHECKLIST.md",
+      "bytes": 17513,
+      "sha256": "794303a9c45c60da2763fc60f0e4ccf6cff06118bd5ec91a6baecf3a601ffff0"
+    },
+    {
+      "path": "docs/ALGORITHM_SPEC.docx",
+      "bytes": 58806,
+      "sha256": "0e68918df6b3b022cc68fb44a8765de8d94449f50bba59f70a751691e31e99e1"
+    },
+    {
+      "path": "docs/ALGORITHM_SPEC.md",
+      "bytes": 33085,
+      "sha256": "f2d4e501ad4b8f755f2f79a9ed9a256a4e361baa1f3bca769512185abec2d170"
+    },
+    {
+      "path": "docs/DATA_DICTIONARY.md",
+      "bytes": 9200,
+      "sha256": "91e8227c7e4137f4c6823228ec6488d06a8631050801ee35410bebcd79c45a79"
+    },
+    {
+      "path": "docs/DATA_SOURCE.md",
+      "bytes": 1288,
+      "sha256": "36bafa3e1d45d1466d4e5b4d20a48f2d671bba2e593d8b557c4991296ac3a493"
+    },
+    {
+      "path": "examples/toy_walkthrough.json",
+      "bytes": 5942,
+      "sha256": "c46bb32b96dab78b85753592378451f31b401d3ff7aa29799ce0c3352b292336"
+    },
+    {
+      "path": "prompts/00_READ_AND_CONFIRM.md",
+      "bytes": 1462,
+      "sha256": "4e552fd7c21edf1ab230523a72c68b63c985d0251e668af8ed35defdcffb52c7"
+    },
+    {
+      "path": "prompts/01_DATA_STAGE.md",
+      "bytes": 2354,
+      "sha256": "2d485d29af7c84611d503870b8627209daa233eccf9d94aa446fc28607217a42"
+    },
+    {
+      "path": "prompts/02_CLUSTER_STAGE.md",
+      "bytes": 2090,
+      "sha256": "c69a5a3586ab5d85faf3c80af0b6465107c32ad396938d3cc57bfed201456a33"
+    },
+    {
+      "path": "prompts/03_RETRIEVAL_STAGE.md",
+      "bytes": 2108,
+      "sha256": "4e90cd6120ff24d55199d7bec3f49c6b444c70886989814e39a9b3cc76522308"
+    },
+    {
+      "path": "prompts/04_FORECAST_STAGE.md",
+      "bytes": 2209,
+      "sha256": "f293cb5b320529dce5c4780ac349426ad25d52d167f039741322380bf6d44d5b"
+    },
+    {
+      "path": "prompts/05_EVALUATION_STAGE.md",
+      "bytes": 2170,
+      "sha256": "39d488ac6d8cd4f8f765ae9ed45e6c4c00e4af5fadb6d92dd36f9fb3a0e5dd9b"
+    },
+    {
+      "path": "prompts/ERROR_RECOVERY.md",
+      "bytes": 705,
+      "sha256": "bc6ffbb4c41be02fa6730ba83156e24e82567a4805dad94c3e5dafc63053ff16"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 3438,
+      "sha256": "78ee28a48d969f89b2952d93a2146247a8217f013bfdbece6c18a408ec16f5a2"
+    }
+  ]
+}

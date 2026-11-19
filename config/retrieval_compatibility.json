@@ -1,0 +1,27 @@
+{
+  "policy": "retrieval-dependencies-v1",
+  "stage3_implementation_version": "9b421dd1dd52b7d8e29f4db61387d41d681f925d379eab77c460ef84d7557309",
+  "dependency_hashes": {
+    "__init__.py": "b06477fd5e44688bee6f624177483905ef8523f2aefdba220996e82d6fb6da2e",
+    "allocation.py": "baee749ce661e474a70fa5ef8ca51c28a83a9986cd98d879ead1e218bdae3914",
+    "candidates.py": "85e82479162a186398346c864e6c8a0d22f220c59d353eae8986ae4bfa8021d2",
+    "cluster_io.py": "8db8c911ec811b0928aa51d3cb12b9e598028ff29bc831f4792167b6a249279b",
+    "clustering.py": "eefe14537c6f0053a1cfce69979271c59e2af37c8bd0de1fac84bd571c2c9fe6",
+    "data.py": "f0033d850c1103808c261cba34557f230ae260373b0b1bc590821caa731780cc",
+    "data_stage.py": "873fc2eb02a84043f129db0cebc2bb0f2ee3260caf2aa1cb01342d3db1a6fdf3",
+    "panel.py": "714323730e6b13727f9aa1c3503977a1c89bfa42aa054a17e3fa899c84cf61fe",
+    "profiles.py": "9e3c73df49c318d13188ca418ccbea8590e4372da94c5518783d7696c1f3a7ab",
+    "retrieval.py": "f12ade5bcf9f910c0942df16a43bcec4bbad0bceb817c964c53d14da47137367",
+    "retrieval_cache.py": "3d917d1d97af6ee6e516ddd8111a596253ce023dfa38bce0e5d9d94a0caf8591",
+    "retrieval_io.py": "9866003530c8b52944e779b39179efbec1d4d07a13687303d67f2a2c0ec463c1",
+    "retrieval_version.py": "ed67fd8320fede1d55255114efbb4b4ec7528219a0ed5f0e4712d6bf56f78a99",
+    "visibility.py": "f9561c67595a993234780c0c5c86be78d4d1d785b27381ead044c54d63baeba8"
+  },
+  "compatibility_note": "Only cache output path permission and dependency-scoped versioning changed; retrieval rules and numeric implementation unchanged. Verified by stage4 equivalence and stage3 regression; former version retained for existing cache identities.",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "pyarrow": "26.0.1"
+  }
+}
